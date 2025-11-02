@@ -4,8 +4,7 @@ This project showcases my front-end web development skills using **HTML** and **
 It includes a responsive layout with pages for **Home**, **About**, and **Contact**.
 
 🌐 **Live Demo:**
-[https://bernard0816.github.io/Project-1-website-bernard0816-portfolio/](https://bernard0816.github.io/Project-1-website-bernard0816-portfolio/)
-
+https://bernard0816.github.io/Project-1-website-bernard0816-portfolio-/
 ## Features
 - Clean navigation bar linking all pages
 - Embedded images and visual elements
@@ -20,3 +19,4 @@ Created as part of my coursework in *Computer Information Systems*, this project
 - Git & GitHub
 - HTML5 / CSS3
 - GitHub Pages for deployment
+
