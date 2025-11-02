@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Bernard | Contact</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header class="site-header">
+<nav class="topnav">
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
+</nav>
+</header>
+
+<main>
+<h1>Contact Bernard</h1>
+
+<img
+src="images/AdobeStock_493619792_Preview.jpeg"
+alt="Golden retriever running"
+width="240" height="240"
+title="Public-domain image demo"
+/>
+
+<p>If you want to discuss class projects, web ideas, or cybersecurity topics, use the form below. It submits to a safe W3Schools demo page so you can verify your inputs were sent.</p>
+
+<p><b>Tip:</b> pick a topic from the dropdown and add a short, clear message so I can respond effectively. If you prefer a call, choose “Phone” below.</p>
+
+<p><i>Privacy:</i> this demo does not store messages—your inputs are merely echoed back by the W3Schools page for assignment verification.</p>
+
+<form action="https://www.w3schools.com/action_page.php" method="post" class="contact-form">
+<div class="form-row">
+<label for="name"><b>Name</b></label>
+<input type="text" id="name" name="name" required />
+</div>
+
+<div class="form-row">
+<span><b>Preferred Contact</b></span>
+<label><input type="radio" name="pref" value="email" checked /> Email</label>
+<label><input type="radio" name="pref" value="phone" /> Phone</label>
+</div>
+
+<div class="form-row">
+<label for="topic"><b>Topic</b></label>
+<select id="topic" name="topic">
+<option>Class Project</option>
+<option>Web Help</option>
+<option>Other</option>
+</select>
+</div>
+
+<div class="form-row">
+<label for="message"><b>Message</b></label>
+<textarea id="message" name="message" rows="5" required></textarea>
+</div>
+
+<button type="submit">Send Message</button>
+</form>
+</main>
+
+<footer class="site-footer">
+<p><small>&copy; <span id="year"></span> Bernard. All rights reserved.</small></p>
+</footer>
+
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
